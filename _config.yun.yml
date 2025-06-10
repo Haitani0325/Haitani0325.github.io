@@ -1,0 +1,121 @@
+avatar:
+  url: /images/avatar.png
+  rounded: true
+  opacity: 1
+
+banner:
+  enable: true
+  title: 标题不知道
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+social:
+  # - name: 哔哩哔哩
+  #   link: 
+  #   icon: ri:bilibili-line
+  #   color: "#FF8EB3"
+  # - name: POPI
+  #   link: https://www.popiapp.cn/elpsycn
+  #   icon: icon-questionnaire-line
+  #   color: "#525252"
+  #  - name: 微信公众号
+  #    link: 
+  #    icon: icon-wechat-2-line
+  #    color: "#1AAD19"
+  - name: X / Twitter
+    link: https://x.com/haitani0325
+    icon: ri:twitter-x-fill
+    color: "#1da1f2"
+  - name: Pixiv
+    link: https://www.pixiv.net/users/97829554
+    icon: simple-icons--pixiv
+    color: "#0095F9"
+  - name: Youtube
+    link: https://youtube.com/Haitani0325
+    icon: ri:youtube-fill
+    color: "#FE0034"
+  - name: Piapro
+    link: https://piapro.jp/Haitani0325
+    icon: simple-icons--piapro
+    color: "#EA3882"
+reward:
+  enable: false
+pages:
+  - name: 小伙伴们
+    url: /links
+    icon: ri:genderless-line
+    color: dodgerblue
+notice:
+  enable: true
+  content: 来了就看看再走吧！
+comment:
+  enable: true
+  tips:
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+  candidates:
+#    - valine
+    - utterances
+utterances:
+  enable: true
+#  src: https://utteranc.es/client.js
+  repo: Haitani0325/Haitani0325.github.io
+  issue-term: pathname
+  # label: comment
+  theme: github-light
+#  crossorigin: anonymous
+
+footer:
+  since: 2025
+  live_time:
+    enable: true
+    prefix: 这个博客运行了
+    suffix: (｡･ω･｡)ﾉ♡
+    start_time: "2025-06-10T19:00:00"
+
+wordcloud:
+  enable: false
+
+codeblock:
+  copy_btn: true
+katex:
+  copy_tex: true
+  global: false
+
+#默哀
+mourn:
+  enable: false
+  days:
+    - "4-5"
+    - "12-13"
+    - "9-18"
+    - "5-12"
+    - "7-7"
+
+head:
+  css:
+    custom: /css/icons.css
+    fonts: 
+      - https://fonts.loli.net/css?family=Saira
+      - https://fonts.loli.net/css?family=JetBrains%20Mono
+font:
+  cdn:
+    enable: true
+    lib:
+      - https://fonts.loli.net/css?family=Saira
+      - https://fonts.loli.net/css?family=JetBrains%20Mono
+  serif:
+    family: '''Songti SC'', ''Noto Serif SC'', STZhongsong, STKaiti, KaiTi, Roboto, serif'
+    weight: 900
+  sans_serif:
+    family: '''Saira'', ''PingFang SC'', ''Microsoft YaHei'', Roboto, Arial, sans-serif'
+    weight: 400
+  monospace:
+    family: '''JetBrains Mono'', ''Source Code Pro'', ''Courier New'', Courier, Consolas, Monaco, monospace'
+
+
