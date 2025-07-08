@@ -44,7 +44,11 @@ relative_link: false
 future: true
 # 关闭 highlight
 highlight:
-  enable: false
+  line_number: false
+  auto_detect: false
+  tab_replace: ''
+  wrap: false
+  hljs: false
 # 启用 prism
 prismjs:
   enable: true
@@ -93,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yun
+theme: typo
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
